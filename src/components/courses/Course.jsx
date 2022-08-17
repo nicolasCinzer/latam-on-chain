@@ -2,7 +2,7 @@ import React from 'react';
 import Stack from './Stack';
 
 /* Icons */
-import { SiSolidity, SiJavascript } from 'react-icons/si';
+import { SiSolidity, SiJavascript, SiTailwindcss } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { FaHardHat } from 'react-icons/fa';
 
@@ -32,6 +32,9 @@ const Course = ({ url, title }) => {
           </a>,
           <a href={'https://hardhat.org/'} key='hardhat'>
             <FaHardHat />
+          </a>,
+          <a href={'https://tailwindcss.com/'} key='tailwind'>
+            <SiTailwindcss />
           </a>,
         ]}
       />
