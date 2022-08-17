@@ -1,9 +1,9 @@
 import './App.css';
-import Courses from './components/Courses';
+import Courses from './components/courses/Courses';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='p-0 m-0 flex-column'>
       <Courses />
     </div>
   );
