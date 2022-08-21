@@ -8,7 +8,7 @@ import { FaHardHat } from 'react-icons/fa';
 
 const Course = ({ url, title }) => {
   return (
-    <div className='grid justify-items-center shadow-xl bg-white my-8  py-4 w-3/4'>
+    <div className='grid justify-items-center shadow-xl bg-white my-8 py-4 w-auto h-auto sm:grid-cols-1'>
       <h3 className='mb-4 text-3xl font-thin'>{title}</h3>
       <iframe
         src={url}
