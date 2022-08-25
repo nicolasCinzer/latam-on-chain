@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Stack = ({ icons }) => {
+const Stack = ({ icons, description }) => {
   return (
     <div className='grid grid-cols-1 place-content-center w-3/4 lg:py-4 lg:flex lg:justify-between'>
-      <div className='grid place-content-center mx-4 px-4 lg:pb-4'>
-        <div className='flex justify-center m-4 pd-1 text-2xl font-thin border-b border-cyan-200'>
+      <div className='grid place-content-center mx-4 px-8 pb-4 bg-ocean-300/50 rounded-2xl shadow'>
+        <div className='flex justify-center m-4 text-2xl font-thin border-b border-cyan-200 '>
           Stack
         </div>
-        <div className='grid grid-cols-3 gap-x-5 gap-y-5 text-2xl mb-8 w-36'>
+        <div className='grid grid-flow-col lg:grid-flow-row lg:grid-cols-3 gap-x-5 gap-y-5 text-2xl mb-8 w-fit lg:mr-0'>
           {icons}
         </div>
         <button className='border rounded-xl border-cyan-200 hover:shadow-lg'>
@@ -15,6 +15,7 @@ const Stack = ({ icons }) => {
         </button>
       </div>
       <div className='p-4 text-center'>
+        {description}
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
         quasi, magni recusandae eaque quod quisquam, autem doloribus at
         accusamus aperiam sequi! Veniam qui sequi odit atque dolorum expedita,
