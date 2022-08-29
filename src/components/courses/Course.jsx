@@ -8,7 +8,7 @@ import { FaHardHat } from 'react-icons/fa';
 
 const Course = ({ url, title }) => {
   return (
-    <div className='grid justify-items-center shadow bg-ocean-200 my-8 py-4 w-3/4 lg:max-w-4xl rounded-3xl border-l-2 border-b-2 border-ocean-300 '>
+    <div className='grid justify-items-center my-8 py-4'>
       <h3 className='mb-3 pb-1 text-3xl font-bold'>
         {title}
       </h3>
@@ -19,7 +19,7 @@ const Course = ({ url, title }) => {
         title={title}
         frameBorder='0'
         allowFullScreen
-        className='w-3/4 '
+        className='w-3/4'
       />
       <Stack
         icons={[

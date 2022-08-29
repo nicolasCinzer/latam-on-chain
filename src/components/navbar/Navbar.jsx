@@ -2,17 +2,25 @@ import { Link } from 'wouter';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between p-4 bg-ocean-300 shadow text-ocean-700 fixed w-full'>
-      <Link to='/'>
-        <h1>LATAM ON CHAIN</h1>
+    <div className='flex justify-between p-4 bg-white shadow'>
+      <Link to='/' className=''>
+        LATAM ON CHAIN
       </Link>
       <div className=''>
-        <Link to='/cursos' className='mx-6 hover:text-ocean-800'>CURSOS</Link>
-        <Link to='/recursos' className='mx-6 hover:text-ocean-800'>RECURSOS</Link>
-        <Link to='/faqs' className='mx-6 hover:text-ocean-800'>FAQs</Link>
+        <Link to='/cursos' className='mx-6 hover:text-emerald-700'>
+          CURSOS
+        </Link>
+        <Link to='/recursos' className='mx-6 hover:text-emerald-700'>
+          RECURSOS
+        </Link>
+        <Link to='/faqs' className='mx-6 hover:text-emerald-700'>
+          FAQs
+        </Link>
       </div>
       <div>
-        <Link to='/login'>INICIAR SESION</Link>
+        <Link to='/login' className='mx-6 hover:text-emerald-700'>
+          INICIAR SESION
+        </Link>
       </div>
     </div>
   );

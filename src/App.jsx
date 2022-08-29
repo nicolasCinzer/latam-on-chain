@@ -5,7 +5,7 @@ import Courses from './components/courses/Courses';
 
 function App() {
   return (
-    <div className='p-0 m-0 bg-ocean-200 h-full'>
+    <div className='p-0 m-0 bg-white h-full'>
       <Navbar />
       <Route path='/cursos' component={Courses} />
     </div>
