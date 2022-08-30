@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import Course from './Course';
+import React from 'react';
+
 import courses from '../../services/coursesArray';
+import Course from './Course';
 
 const Courses = () => {
   return (
