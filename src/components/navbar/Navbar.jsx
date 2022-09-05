@@ -17,11 +17,6 @@ const Navbar = () => {
           FAQs
         </Link>
       </div>
-      <div>
-        <Link to='/login' className='mx-6 hover:text-emerald-700'>
-          INICIAR SESION
-        </Link>
-      </div>
     </div>
   );
 };
