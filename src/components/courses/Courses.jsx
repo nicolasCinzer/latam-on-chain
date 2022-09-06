@@ -1,7 +1,7 @@
 import React from 'react';
 
 import courses from '../../services/coursesArray';
-import Course from './Course';
+import Course from './course/Course';
 
 const Courses = () => {
   return (

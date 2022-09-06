@@ -3,6 +3,7 @@ import { Route } from 'wouter';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Courses from './components/courses/Courses';
+import Resources from './components/resources/Resources';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Route path='/' component={Home} />
       <Route path='/cursos' component={Courses} />
+      <Route path='/recursos' component={Resources}/>
     </div>
   );
 }
