@@ -4,9 +4,9 @@ import Blockchain from '../../../images/blockchain';
 
 const Welcome = () => {
   return (
-    <div className='grid grid-cols-2 mb-8'>
-      <div className='flex flex-col py-16 w-min'>
-        <div className='text-6xl py-4 px-8 mb-4 w-fit bg-emerald-400/60 rounded-3xl'>
+    <div className='grid md:grid-cols-2 mb-8'>
+      <div className='flex flex-col pb-8 md:py-16 w-min'>
+        <div className='text-6xl py-4 px-8 mb-4 w-fit bg-emerald-300 rounded-3xl z-10'>
           #LATAMonCHAIN
         </div>
         <div className='text-xl pl-4'>
