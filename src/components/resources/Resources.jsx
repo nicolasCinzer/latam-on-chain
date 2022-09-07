@@ -28,9 +28,13 @@ const Resources = () => {
           date={'6 de Sep 2022'}
         />
       </div>
-      <div>
-        Topics
-        
+      <div className='grid fixed right-44 top-36 grid-flow-row gap-y-4 place-items-center'>
+        <div className='border-b border-emerald-300/60 text-xl'>Topics</div>
+        <div className='w-fit px-3 bg-emerald-300/60 rounded-3xl'>Solidity</div>
+        <div className='w-fit px-3 bg-emerald-300/60 rounded-3xl'>Bitcoin</div>
+        <div className='w-fit px-3 bg-emerald-300/60 rounded-3xl'>
+          Blockchain
+        </div>
       </div>
     </>
   );

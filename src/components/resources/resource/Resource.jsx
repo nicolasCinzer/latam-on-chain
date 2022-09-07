@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Resource = ({ id, icon, title, date }) => {
-  console.log(title.length);
   return (
     <div className='flex flex-col w-2/3 px-4 py-2 mx-4 my-2 rounded-lg cursor-pointer transition-all duration-300 group hover:bg-emerald-400/60'>
       <div className='flex items-center'>
