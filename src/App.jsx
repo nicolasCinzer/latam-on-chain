@@ -12,6 +12,7 @@ function App() {
       <Route path='/' component={Home} />
       <Route path='/cursos' component={Courses} />
       <Route path='/recursos' component={Resources}/>
+      <Route path='/recursos/:id' component={} />
     </div>
   );
 }
