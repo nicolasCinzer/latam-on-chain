@@ -6,7 +6,7 @@ import { SiSolidity, SiJavascript, SiTailwindcss } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { FaHardHat } from 'react-icons/fa';
 
-const Course = ({ url, title }) => {
+const Course = ({ url, title, stack, description }) => {
   return (
     <div className='grid justify-items-center my-8 py-4'>
       <h3 className='mb-3 pb-1 text-3xl font-medium'>
@@ -39,6 +39,7 @@ const Course = ({ url, title }) => {
             <SiTailwindcss />
           </a>,
         ]}
+        description={description}
       />
     </div>
   );
