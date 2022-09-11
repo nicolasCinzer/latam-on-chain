@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Resource from './resource';
-import Topics from './topics';
+import Resource from '../components/resources/resource';
+import Topics from '../components/resources/topics';
 
 import { SiHiveBlockchain } from 'react-icons/si';
 

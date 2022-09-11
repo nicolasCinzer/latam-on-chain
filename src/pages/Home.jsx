@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Welcome from './welcome';
-import Roadmaps from './roadmaps';
+import Welcome from '../components/home/welcome';
+import Roadmaps from '../components/home/roadmaps';
 
 const Home = () => {
   return (

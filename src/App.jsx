@@ -1,10 +1,12 @@
 import { Route } from 'wouter';
 
 import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import Courses from './components/courses/Courses';
-import Resources from './components/resources/Resources';
 import Content from './components/resources/content';
+
+/* Pages */
+import Home from './pages/Home';
+import Courses from './pages/Courses';
+import Resources from './pages/Resources';
 
 function App() {
   return (
