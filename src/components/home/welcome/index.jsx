@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Blockchain from '../../../images/blockchain';
+import Blockchain from '../../../images/svg/blockchain';
 
 const Welcome = () => {
   return (
