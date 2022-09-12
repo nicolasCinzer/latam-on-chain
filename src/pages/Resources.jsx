@@ -16,6 +16,7 @@ const Resources = () => {
         {resources.map(({ id, topic, icon, title, date }) =>
           filter === 'All' || filter === topic ? (
             <Resource
+              key={id}
               id={id}
               topic={topic}
               icon={icon}

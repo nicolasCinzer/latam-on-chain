@@ -10,15 +10,33 @@ const Image = ({ url, title }) => {
   return (
     <>
       {URL_ID === 'gyMwXuJrbJQ' ? (
-        <a href={url} target='_blank' rel='noreferrer'>
-          <img alt={title} src={gyMwXuJrbJQ} className='rounded-br-2xl' />
+        <a
+          href={url}
+          target='_blank'
+          rel='noreferrer'
+          className='max-h-[466px] lg:max-h-fit'
+        >
+          <img
+            alt={title}
+            src={gyMwXuJrbJQ}
+            className='rounded-br-2xl'
+          />
         </a>
       ) : (
         <></>
       )}
       {URL_ID === 'FAMWIoKvfRs' ? (
-        <a href={url} target='_blank' rel='noreferrer'>
-          <img alt={title} src={FAMWIoKvfRs} className='rounded-br-2xl' />
+        <a
+          href={url}
+          target='_blank'
+          rel='noreferrer'
+          className='max-h-[466px] lg:max-h-fit' 
+        >
+          <img
+            alt={title}
+            src={FAMWIoKvfRs}
+            className='rounded-br-2xl '
+          />
         </a>
       ) : (
         <></>
