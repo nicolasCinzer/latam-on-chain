@@ -11,14 +11,14 @@ const Image = ({ url, title }) => {
     <>
       {URL_ID === 'gyMwXuJrbJQ' ? (
         <a href={url} target='_blank' rel='noreferrer'>
-          <img alt={title} src={gyMwXuJrbJQ} />
+          <img alt={title} src={gyMwXuJrbJQ} className='rounded-br-2xl' />
         </a>
       ) : (
         <></>
       )}
       {URL_ID === 'FAMWIoKvfRs' ? (
         <a href={url} target='_blank' rel='noreferrer'>
-          <img alt={title} src={FAMWIoKvfRs} className='rounded-2xl' />
+          <img alt={title} src={FAMWIoKvfRs} className='rounded-br-2xl' />
         </a>
       ) : (
         <></>
