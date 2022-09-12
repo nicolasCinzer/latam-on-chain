@@ -5,7 +5,7 @@ import Course from '../components/course';
 
 const Courses = () => {
   return (
-    <div className='grid px-16 xl:grid-cols-2 place-items-center'>
+    <div className='grid p-16 xl:grid-cols-2 place-items-center'>
       {courses.map(({ url, title, stack, description }) => (
         <Course
           key={title}

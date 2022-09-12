@@ -18,7 +18,7 @@ const Image = ({ url, title }) => {
       )}
       {URL_ID === 'FAMWIoKvfRs' ? (
         <a href={url} target='_blank' rel='noreferrer'>
-          <img alt={title} src={FAMWIoKvfRs} target='blank' className='' />
+          <img alt={title} src={FAMWIoKvfRs} className='rounded-2xl' />
         </a>
       ) : (
         <></>
