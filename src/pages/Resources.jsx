@@ -9,7 +9,9 @@ const Resources = () => {
 
   return (
     <>
-      <div className='pt-8 pb-4 px-8 text-2xl'>Ultimos Posteos</div>
+      <div className='pt-8 pb-4 px-8 text-2xl'>
+        {filter !== 'All' ? `Posteos sobre ${filter}` : 'Ultimos Posteos'}
+      </div>
       <div className='grid grid-cols-1 px-4'>
         {resources.map(({ id, topic, icon, title, date }) =>
           filter === 'All' || filter === topic ? (
