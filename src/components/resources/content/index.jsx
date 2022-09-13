@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Posts from './posts';
+import Post1 from './posts/que-es-blockchain';
 
 const Content = ({ params }) => {
   const { id } = params;
 
-  return <>{id ? <Posts id={id} /> : <></>}</>;
+  return <>{id === 'que-es-blockchain' ? <Post1 /> : <></>}</>;
 };
 
 export default Content;
