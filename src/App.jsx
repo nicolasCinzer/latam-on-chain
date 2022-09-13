@@ -2,6 +2,7 @@ import { Route } from 'wouter';
 
 import Navbar from './components/navbar/Navbar';
 import Content from './components/resources/content';
+import Roadmap from './components/roadmaps'
 
 /* Pages */
 import Home from './pages/Home';
@@ -16,7 +17,7 @@ function App() {
       <Route path='/cursos' component={Courses} />
       <Route path='/recursos' component={Resources} />
       <Route path='/recursos/:id' component={Content} />
-      {/* <Route path='/roadmaps/:title' component={} /> */}
+      <Route path='/roadmaps/:title' component={Roadmap} />
     </div>
   );
 }
