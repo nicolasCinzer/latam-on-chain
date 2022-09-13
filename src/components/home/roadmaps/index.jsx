@@ -12,7 +12,7 @@ const Roadmaps = () => {
           description={'Aprende desarrollo Blockchain paso a paso!'}
         />
         <RoadmapBubble
-          title={'Blockchain'}
+          title={'Solidity'}
           description={'Aprende desarrollo Blockchain paso a paso!'}
         />
       </div>

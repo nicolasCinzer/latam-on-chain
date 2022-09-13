@@ -16,6 +16,7 @@ function App() {
       <Route path='/cursos' component={Courses} />
       <Route path='/recursos' component={Resources} />
       <Route path='/recursos/:id' component={Content} />
+      {/* <Route path='/roadmaps/:title' component={} /> */}
     </div>
   );
 }
