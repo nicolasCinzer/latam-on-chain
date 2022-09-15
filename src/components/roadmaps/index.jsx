@@ -1,11 +1,14 @@
 import React from 'react';
 
+/* Roadmaps */
+import Blockchain from './blockchain';
+
 const Roadmaps = ({ params }) => {
   const { title } = params;
 
   return (
     <>
-      {title === 'Blockchain' ? <div>blockchain</div> : <></>}
+      {title === 'Blockchain' ? <Blockchain /> : <></>}
       {title === 'Solidity' ? <div>solidity</div> : <></>}
     </>
   );
