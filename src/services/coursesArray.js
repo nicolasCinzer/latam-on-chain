@@ -5,13 +5,15 @@ let courses = [
     stack: ['solidity', 'nextjs', 'javascript', 'hardhat', 'tailwindcss'],
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur adipisicing elit ',
+    language: 'ingles',
   },
   {
     url: 'https://www.youtube.com/watch?v=FAMWIoKvfRs',
-    title: 'Blockchain 32hrs Course',
+    title: 'Solidity',
     stack: ['solidity', 'hardhat', 'tailwindcss'],
     description:
       'Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur adipisicing elit Lorem ipsum dolor, sit amet consectetur adipisicing elit ',
+    language: 'Español',
   },
 ];
 
