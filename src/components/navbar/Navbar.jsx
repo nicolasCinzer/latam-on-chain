@@ -9,7 +9,7 @@ const Navbar = () => {
         to='/'
         className={`transition-all duration-300 ${
           path === '/'
-            ? 'pl-1 border-b-2 border-l-2 border-emerald-400 shadow-md'
+            ? 'px-1 border-b-2 border-l-2 border-emerald-400 shadow rounded'
             : 'hover:text-emerald-700'
         }`}
       >
