@@ -10,6 +10,7 @@ const Topics = ({ setFilter }) => {
       <Topic topic={'Solidity'} setFilter={setFilter} />
       <Topic topic={'Blockchain'} setFilter={setFilter} />
       <Topic topic={'Bitcoin'} setFilter={setFilter} />
+      <Topic topic={'Ethereum'} setFilter={setFilter} />
     </div>
   );
 };
