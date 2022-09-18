@@ -12,8 +12,8 @@ const Resources = () => {
       <div className='pt-8 pb-4 px-8 text-2xl'>
         {filter !== 'All' ? `Posteos sobre ${filter}` : 'Ultimos Posteos'}
       </div>
-      <div className='grid grid-cols-1 px-4'>
-        {resources.map(({ id, topic, icon, title, date }) =>
+      <div className='grid grid-cols-1 2xl:grid-cols-2 2xl:w-4/5 px-4'>
+        {resources.map(({ id, topic, icon, title, date, hosted }) =>
           filter === 'All' || filter === topic ? (
             <Resource
               key={id}
@@ -22,6 +22,7 @@ const Resources = () => {
               icon={icon}
               title={title}
               date={date}
+              hosted={hosted}
             />
           ) : (
             <></>
